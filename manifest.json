@@ -1,0 +1,76 @@
+{
+  "name": "Firestream",
+  "version": "1.0.0",
+  "scrapers": [
+    {
+      "id": "streamplay",
+      "name": "StreamPlay",
+      "description": "StreamPlay multi-source: Vidlink, Vidrock, VidEasy, XPass, DahmerMovies, Vadapav + anime (Miruro, AniKage, AniKoto, Anidap, Ani.pm, Kyren, ReAnime, AniNami) + KissKH for Asian drama",
+      "version": "1.0.0",
+      "author": "Firestream",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/streamplay.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=github.com&sz=128",
+      "contentLanguage": ["en", "hi", "ja", "ko"]
+    },
+    {
+      "id": "streamhubone",
+      "name": "StreamHubOne",
+      "description": "StreamHubOne (Desi) multi-source: Hexa, VidZee, PrimeWire, ProjectFreeTV, Vidlink, Vidrock, VidEasy, XPass + anime sources",
+      "version": "1.0.0",
+      "author": "Firestream",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/streamhubone.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=hexa.su&sz=128",
+      "contentLanguage": ["en", "hi"]
+    },
+    {
+      "id": "raghavanime",
+      "name": "RaghavAnime",
+      "description": "Anime sub + dub aggregator: Miruro, AniKage, Anidap, Ani.pm, AniNami, VidHawk, Kyren, Re:ANIME, Anv, AniKoto",
+      "version": "1.0.0",
+      "author": "Firestream",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/raghavanime.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=anilist.co&sz=128",
+      "contentLanguage": ["en", "ja"]
+    },
+    {
+      "id": "raghavanimekitsu",
+      "name": "RaghavAnime Kitsu",
+      "description": "RaghavAnime with Kitsu titles for matching (same sub + dub sources)",
+      "version": "1.0.0",
+      "author": "Firestream",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/raghavanimekitsu.js",
+      "enabled": false,
+      "hasSettings": false,
+      "formats": ["mp4", "mkv", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=kitsu.app&sz=128",
+      "contentLanguage": ["en", "ja"]
+    },
+    {
+      "id": "netnaija",
+      "name": "NetNaija",
+      "description": "NetNaija — movies, series, anime with every dub as its own stream (Hindi, Tamil, Telugu, English…) + subtitles",
+      "version": "1.0.0",
+      "author": "Firestream",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/netnaija.js",
+      "enabled": true,
+      "hasSettings": false,
+      "formats": ["mp4", "m3u8"],
+      "logo": "https://www.google.com/s2/favicons?domain=netnaija.film&sz=128",
+      "contentLanguage": ["en", "hi", "ta", "te"]
+    }
+  ]
+}
